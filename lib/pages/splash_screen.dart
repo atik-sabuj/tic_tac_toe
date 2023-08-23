@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:tic_tac_toe/constants/colors.dart';
 import 'package:tic_tac_toe/pages/gaming_theory.dart';
 
 
@@ -26,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: MainColor.primaryColor,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -35,9 +36,7 @@ class _SplashScreenState extends State<SplashScreen> {
 /*            height: 200,
             width: 200,*/
             child: Image.asset(
-              "images/logo paw.png",
-              /* height: 30,
-              width: 30,*/
+              "images/ticlogo.png",
             ),
           ),
         ],
