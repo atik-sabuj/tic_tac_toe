@@ -57,7 +57,7 @@ class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: MainColor.primaryColor,
+      backgroundColor: MainColor.backgroundColor,
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
