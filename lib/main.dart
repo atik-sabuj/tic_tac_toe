@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tic_tac_toe/pages/gaming_theory.dart';
 import 'package:tic_tac_toe/pages/splash_screen.dart';
 
 void main() {

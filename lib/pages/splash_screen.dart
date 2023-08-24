@@ -33,8 +33,6 @@ class _SplashScreenState extends State<SplashScreen> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Container(
-/*            height: 200,
-            width: 200,*/
             child: Image.asset(
               "images/ticlogo.png",
             ),
